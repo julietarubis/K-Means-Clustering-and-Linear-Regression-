@@ -1,7 +1,7 @@
 # K-Means-Clustering-and-Linear-Regression-
 This repository contains two machine learning implementations: Linear Regression (a supervised learning algorithm) and K-Means Clustering (an unsupervised learning algorithm). The implementations are designed to predict a person's weight based on their age and height using Linear Regression and to group people based on their height and weight using K-Means Clustering.
 
-Table of Contents
+## Table of Contents
 
     Introduction
     Requirements
@@ -16,21 +16,21 @@ Table of Contents
     How to Run the Code
     License
 
-Introduction
+## Introduction
 
 This project demonstrates basic machine learning techniques using Python. The two main algorithms implemented are:
 
 Linear Regression: A supervised learning technique to predict continuous variables (e.g., predicting weight based on age and height).
 K-Means Clustering: An unsupervised learning algorithm used to group data points into clusters (e.g., grouping individuals based on height and weight).
 
-The project uses the following Python libraries:
+## The project uses the following Python libraries:
 
     numpy
     pandas
     matplotlib
     scikit-learn
 
-Requirements
+## Requirements
 
 Before running the code, ensure that the following libraries are installed in your Python environment:
 
@@ -40,7 +40,7 @@ Alternatively, if you are using a virtual environment, make sure it is activated
 
 Linear Regression
 
-Dataset
+## Dataset
 
 The dataset consists of three features: Age, Height, and Weight. We will use the Age and Height as the input features (X) and predict Weight as the target variable (Y).
 
@@ -52,7 +52,7 @@ The dataset consists of three features: Age, Height, and Weight. We will use the
         15	  160	          60
         18	  175	          70
 
-Implementation Steps
+## Implementation Steps
 
 Dataset Creation: Manually create a dataset for Age, Height, and Weight.
 
@@ -66,18 +66,18 @@ Evaluation: Use the Mean Squared Error (MSE) metric to evaluate the model's perf
 
 Visualization: Create a scatter plot to visualize the actual and predicted weights.
 
-Expected Output
+## Expected Output
 
 Mean Squared Error: A numerical value indicating the average squared difference between the actual and predicted weights.
 
 Scatter Plot: A plot showing the actual vs. predicted weights.
 
-Example Output (Console):
+## Example Output (Console):
 
     Mean Squared Error: 1.2345
     Predicted weights: [some array of predicted values]
 
-Example Output (Plot):
+## Example Output (Plot):
 
 A scatter plot showing:
 
@@ -85,7 +85,7 @@ A scatter plot showing:
 
 -Red dots for the predicted weights based on the test set.
 
-K-Means Clustering
+## K-Means Clustering
 Dataset
 
 The dataset used for K-Means Clustering contains only Height and Weight features, which are used to group individuals into clusters.
@@ -102,7 +102,7 @@ The dataset used for K-Means Clustering contains only Height and Weight features
       180	          85
       110	          30
 
-Implementation Steps:
+## Implementation Steps:
 
 Dataset Creation: Create a dataset for Height and Weight.
 
@@ -114,13 +114,13 @@ Output Cluster Centers: Print the centers of the clusters.
 
 Assign Clusters: Assign each data point to one of the clusters and print the resulting groups.
 
-Expected Output:
+## Expected Output:
 
 Cluster Centers: Coordinates representing the center of each cluster.
 
 Scatter Plot: A plot showing the clustered data points, with each cluster color-coded.
 
-Example Output (Console):
+## Example Output (Console):
 
       Cluster Centers:
        [[112.5, 22.5]
@@ -133,7 +133,7 @@ Example Output (Console):
       2     120      35        2
       ...
 
-How to Run the Code:
+## How to Run the Code:
 
 1. Clone the Repository:
    
@@ -160,11 +160,11 @@ On macOS/Linux:
    
 9. Run the Applications:
 
-For Linear Regression:  
+## For Linear Regression:  
 
       python linear_regression_weight_prediction.py
       
-For K-Means Clustering:  
+## For K-Means Clustering:  
 
       python kmeans_clustering.py
 
